@@ -28,6 +28,7 @@
     transition: left 2s ease;
 }
 
+
 .image:hover .girl{
     left: 55%;
 }
@@ -247,9 +248,26 @@ header.shadow {
 }
 
 .skills-img img {
-    width: 80%;
+    width: 60%;
     padding-left: 4rem;
     object-position: center;
+    left: 30%;
+}
+
+.skills-img video {
+    width: 90%;
+    padding-left: 4rem;
+    object-position: center;
+    left: 30%;
+}
+
+
+.skills-img {
+    text-align: center;
+}
+
+.skills-img a{
+    text-align: center;
 }
 
 .bars-box {
@@ -554,10 +572,13 @@ form textarea {
     .skills-img img {
         padding-left: 0;
     }
+    .skills-img video {
+        padding-left: 0;
+    }
     .skills-img {
         padding-top: 2rem;
         display: flex;
-        justify-content: center;
+        justify-content:center;
     }
     .contact-form form {
         width: 300px;
